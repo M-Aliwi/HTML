@@ -1,3 +1,11 @@
+:root {
+    color: var(--heading-color, rgb(2, 119, 148))
+}
+
+:root{
+    background-color: var(--background-color, rgb(143, 140, 140))
+}
+
 .first {
     color: red;
 }
@@ -14,3 +22,32 @@
 #first {
     color: green;
 }
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: var(--heading-color)
+}
+
+h2 {
+    color: var(--heading-color)
+}
+
+article {
+    border: 1px double black;
+    margin: 5px;
+    padding: 10px;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: var(--background-color)
+}
+
