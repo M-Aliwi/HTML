@@ -51,3 +51,14 @@ body {
     background-color: var(--background-color)
 }
 
+a:hover {
+    color: aqua;
+}
+
+a:visited {
+    color: white;
+}
+
+.hobby-list > li:nth-child(even) {
+    background-color: darkorange;
+}
