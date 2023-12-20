@@ -1,0 +1,185 @@
+:root {
+    --bg: rgb(255, 236, 145);
+}
+
+@media only screen and (max-width:431px) {
+    .wrapper {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "sb"
+            "adv"
+            "footer";
+    }
+
+    header {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: header;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    nav {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: nav;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    main {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: main;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .sidebar {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: sb;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .adv {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: adv;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: footer;
+        padding: 10px;
+        border-radius: 2px;
+    }
+}
+
+@media only screen and (min-width:432px) {
+    .wrapper {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "sb main"
+            "adv footer"; 
+    }
+
+    header {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: header;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    nav {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: nav;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    main {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: main;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .sidebar {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: sb;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .adv {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: adv;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: footer;
+        padding: 10px;
+        border-radius: 2px;
+    }
+}
+
+@media only screen and (min-width:1367px) {
+    .wrapper {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "header header header"
+            "nav main sb"
+            "nav main adv"
+            "footer footer footer"; 
+    }
+
+    header {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: header;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    nav {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: nav;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    main {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: main;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .sidebar {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: sb;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .adv {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: adv;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: var(--bg);
+        border: 2px solid rgb(200, 151, 65);
+        grid-area: footer;
+        padding: 10px;
+        border-radius: 2px;
+    }
+}
