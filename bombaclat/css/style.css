@@ -2,7 +2,24 @@
     --bg: rgb(255, 236, 145);
 }
 
-@media only screen and (max-width:431px) {
+header, nav, .sidebar, .adv, main, footer {
+    background-color: var(--bg);
+    border: 2px solid rgb(200, 151, 65);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main{
+    background-color: royalblue;
+    h1{
+        color: palevioletred;
+    } 
+    article {
+        color: cyan;
+    }
+}
+
+@media only screen and (min-width:431px) {
     .wrapper {
         display: grid;
         gap: 10px;
@@ -15,53 +32,12 @@
             "footer";
     }
 
-    header {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: header;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    nav {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: nav;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    main {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: main;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .sidebar {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: sb;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .adv {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: adv;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    footer {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: footer;
-        padding: 10px;
-        border-radius: 2px;
-    }
+    header {grid-area: header;}
+    nav {grid-area: nav;}
+    main {grid-area: main;}
+    .sidebar { grid-area: sb;}
+    .adv {grid-area: adv;}
+    footer {grid-area: footer;}
 }
 
 @media only screen and (min-width:432px) {
@@ -74,54 +50,6 @@
             "sb main"
             "adv footer"; 
     }
-
-    header {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: header;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    nav {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: nav;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    main {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: main;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .sidebar {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: sb;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .adv {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: adv;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    footer {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: footer;
-        padding: 10px;
-        border-radius: 2px;
-    }
 }
 
 @media only screen and (min-width:1367px) {
@@ -133,53 +61,5 @@
             "nav main sb"
             "nav main adv"
             "footer footer footer"; 
-    }
-
-    header {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: header;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    nav {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: nav;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    main {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: main;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .sidebar {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: sb;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .adv {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: adv;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    footer {
-        background-color: var(--bg);
-        border: 2px solid rgb(200, 151, 65);
-        grid-area: footer;
-        padding: 10px;
-        border-radius: 2px;
     }
 }
