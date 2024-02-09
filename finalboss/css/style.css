@@ -1,0 +1,241 @@
+@media screen and (max-width: 800px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+            "hd   hd   hd    hd    hd   hd  "
+            "sd   sd   sd    sd    sd   sd "
+            "main main  main  main main  main "
+            "r    r     r     r     r     r"
+            "ft   ft   ft     ft   ft   ft   ";
+        border: 2px solid black;
+
+    }
+
+    .header {
+        grid-area: hd;
+        margin: 3px;
+        border: 2px solid orange;
+
+    }
+
+    .left {
+        grid-area: sd;
+        margin: 3px;
+        border: 2px solid orange;
+    }
+
+    .right {
+        grid-area: r;
+        margin: 3px;
+        border: 2px solid orange;
+
+    }
+
+    .footer {
+        grid-area: ft;
+        margin: 3px;
+        border: 2px solid orange;
+
+    }
+
+    .listing {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        list-style: none;
+        gap: 10px;
+        grid-area: main;
+    }
+
+    .listing li {
+        border: 2px solid orange;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .listing li h2 {
+        background-color: orange;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .listing .cta {
+        margin-top: auto;
+        border-top: 2px solid orange;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .listing.cta a {
+        text-decoration: none;
+        color: orange;
+        font-size: 30px;
+    }
+
+    .listing.body {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+            "hd   hd   hd    hd    hd   hd          "
+            "sd   main main  main  main r "
+            "ft   ft   ft     ft   ft   ft   ";
+        border: 2px solid black;
+
+    }
+
+    .header {
+        grid-area: hd;
+        margin: 3px;
+        border: 2px solid orange;
+
+    }
+
+    .left {
+        grid-area: sd;
+        margin: 3px;
+        border: 2px solid orange;
+    }
+
+    .footer {
+        grid-area: ft;
+        margin: 3px;
+        border: 2px solid orange;
+
+    }
+
+    .listing {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        list-style: none;
+        gap: 10px;
+        grid-area: main;
+    }
+
+    .listing li {
+        border: 2px solid orange;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .listing li h2 {
+        background-color: orange;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .listing .cta {
+        margin-top: auto;
+        border-top: 2px solid orange;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .listing.cta a {
+        text-decoration: none;
+        color: orange;
+        font-size: 30px;
+    }
+
+    .listing.body {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+            "hd   hd   hd    hd    hd   hd          "
+            "sd   main main  main  main r "
+            "ft   ft   ft     ft   ft   ft   ";
+        border: 2px solid black;
+
+    }
+
+    .header {
+        grid-area: hd;
+        margin: 3px;
+        border: 2px solid orange;
+
+    }
+
+    .left {
+        grid-area: sd;
+        margin: 3px;
+        border: 2px solid orange;
+    }
+
+    .right {
+        grid-area: r;
+        margin: 3px;
+        border: 2px solid orange;
+
+    }
+
+    .footer {
+        grid-area: ft;
+        margin: 3px;
+        border: 2px solid orange;
+
+    }
+
+    .listing {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        list-style: none;
+        gap: 10px;
+        grid-area: main;
+    }
+
+    .listing li {
+        border: 2px solid orange;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .listing li h2 {
+        background-color: orange;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .listing .cta {
+        margin-top: auto;
+        border-top: 2px solid orange;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .listing.cta a {
+        text-decoration: none;
+        color: orange;
+        font-size: 30px;
+    }
+
+    .listing.body {
+        padding: 10px;
+    }
+
+}
